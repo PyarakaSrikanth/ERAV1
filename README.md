@@ -13,7 +13,7 @@ Repo has 3 files:
 
 ## Usage:
 
-Requried dependencis for implementation :
+**Requried dependencis for implementation :**
 
 Pytorch installation
 ```
@@ -38,7 +38,7 @@ The MNIST database (Modified National Institute of Standards and Technology data
 
 ## Details About Files In This Directory:
 
-**model.py** :
+### **model.py** :
 
 model.py has script to define CNN Structure)
 
@@ -65,16 +65,18 @@ class Net(nn.Module):
         return F.log_softmax(x, dim=1)
   ```      
 
-**utils.py** :
+### **utils.py** :
 
 utils.py has some basic helper functions to train,test model
 
-GetCorrectPredCount : Count of Correct prediction
+**GetCorrectPredCount** : 
+
+Count of Correct prediction
 ``` python
 def GetCorrectPredCount(pPrediction, pLabels):
   return pPrediction.argmax(dim=1).eq(pLabels).sum().item()
 ```
-train : 
+**train** : 
 
 Input - model , device (Cpu or GPU) , training data , Optimizer and loss function as criterion  <br>     returns - training accuracy and training loss 
 ``` python
@@ -111,10 +113,11 @@ def train(model, device, train_loader, optimizer, criterion):
   train_losses.append(train_loss/len(train_loader))
   #return train_acc,train_losses 
 ```
-test : 
+**test** : 
 
 Input - model , device (Cpu or GPU) , test data , Optimizer and loss function as criterion <br>
-returns - test accuracy and test loss       
+returns - test accuracy and test loss  
+
 ```   python    
 def test(model, device, test_loader, criterion):
     model.eval()
@@ -142,7 +145,7 @@ def test(model, device, test_loader, criterion):
     #return test_acc,test_losses      
   ```
 
-**S5.Ipynb** :
+### **S5.Ipynb** :
 
 * Implementation Notebook loads MNIST data into train and test 
 * Apply transformation on data cropping , normalization and standardize on train and test 
@@ -169,7 +172,7 @@ test_transforms = transforms.Compose([
 from model import Net
 from utils import *
 ```
-* Neural Network Summary :
+* ## Neural Network Summary :
   * Batch size : 512
   * Learning rate : 0.01
   * Epochs : 20
@@ -199,6 +202,7 @@ Estimated Total Size (MB): 363.36
 ==========================================================================================
 ```
 
-
+* ## Train vs Test (Accuracy and Losses) :
+ ![trainvstest](train_test.png)
 
 
