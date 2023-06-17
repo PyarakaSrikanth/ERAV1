@@ -7,12 +7,18 @@ Your new target is:
 * Less than 8000 Parameters
 * Do this using your modular code. Every model that you make must be there in the model.py file as Model\_1, Model\_2, etc.
 
-## Results :
+## Experimentation :
+
+Note : 
+* model.py has model_1,model_2,model_3,model_4 classes
+* utils.py has train/test scripts
+* Notebooks : Model_V1/V2/V3/V3a/V4 uses modular code from model.py and utils.py files.
+       
 
 ### **Model : Model\_1**
 
 Targets:
-Consistent 99.4% Test accuracy , Less than 8k Parameters
+* Consistent 99.4% Test accuracy , Less than 8k Parameters
 
 * Model : Model\_1
 * Notebook : Model\_V1.ipynb
@@ -62,7 +68,6 @@ Estimated Total Size (MB): 1.50
 ### **Model Version 2 : Model\_2**
 
 Targets:
-
 * Consistent 99.4% Test accuracy , Less than 8k Parameters
 * Build lighter Model with decent accuracy
 * Model : Model\_2
