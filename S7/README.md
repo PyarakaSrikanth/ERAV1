@@ -133,6 +133,9 @@ Targets:
 * Added Transformation (RandomRotation) augmentation
 * It is evident from Train and Test accuracy that Model is generalizing well not Overfitting
 * Observed that after 8th Epoch Model may stuck at local Minima. Probably LR schedular to be used to get improve learning.
+
+### **Model Version 3a: Model\_3**
+
 Targets:
 * Improve Learning using LR Schedular.
 * Model : Model\_3
