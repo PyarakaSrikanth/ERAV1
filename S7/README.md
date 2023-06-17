@@ -10,8 +10,8 @@ Your new target is:
 ## Experimentation :
 
 Note : 
-* model.py has model_1,model_2,model_3,model_4 classes
-* utils.py has train/test scripts
+* [model.py](model.py) has model_1,model_2,model_3,model_4 classes
+* [utils.py](utils.py) has train/test scripts
 * Notebooks : Model_V1/V2/V3/V3a/V4 uses modular code from model.py and utils.py files.
        
 
@@ -21,7 +21,7 @@ Targets:
 * Consistent 99.4% Test accuracy , Less than 8k Parameters
 
 * Model : Model\_1
-* Notebook : Model\_V1.ipynb
+* Notebook : [Model\_V1.ipynb](Model_V1.ipynb)
 * Results:
     * Training Accuracy : 99.96
     * Test Accuracy : 99.51
@@ -71,12 +71,11 @@ Targets:
 * Consistent 99.4% Test accuracy , Less than 8k Parameters
 * Build lighter Model with decent accuracy
 * Model : Model\_2
-* Notebook : Model\_V2.ipynb
-
-Results:
-\- Training Accuracy : 99\.56
-\- Test Accuracy : 99\.33
-\- Parameters : 9873
+* Notebook : [Model\_V2.ipynb](Model_V2.ipynb)
+* Results:
+  * Training Accuracy : 99\.56
+  * Test Accuracy : 99\.33
+  * Parameters : 9873
 
 ### Analysis:
 
@@ -118,11 +117,11 @@ Estimated Total Size (MB): 0.41
 
 ### **Model Version 3: Model\_3**
 
-* Targets:
+Targets:
 * Consistent 99.4% Test accuracy , Less than 8k Parameters
 * Reduce Overfitting and Improving Accuracy by applying RandomRotation
 * Model : Model\_3
-* Notebook : Model\_V3.ipynb
+* Notebook : [Model\_V3.ipynb](Model_V3.ipynb)
 * Results:
     * Training Accuracy : 98.39
     * Test Accuracy : 99.36
@@ -135,7 +134,7 @@ Estimated Total Size (MB): 0.41
 * It is evident from Train and Test accuracy that Model is generalizing well not Overfitting
 * Observed that after 8th Epoch Model may stuck at local Minima. Probably LR schedular to be used to get improve learning.
 * Model : Model\_3
-* Notebook : Model\_V3a.ipynb
+* Notebook : [Model\_V3a.ipynb](Model_V3a.ipynb)
 * Targets: Handle Overfitting and Improve Accuracy
 * Results:
     * Training Accuracy : 99.42
@@ -189,10 +188,10 @@ Estimated Total Size (MB): 0.57
 
 ### **Model Version 4: Model\_4**
 
-* Targets:
+Targets:
 * Consistent 99.4% Test accuracy , Less than 8k Parameters
 * Model : Model\_4
-* Notebook : Model\_V4.ipynb
+* Notebook : [Model\_V4.ipynb](Model_V4.ipynb)
 
 ## Results :
 
