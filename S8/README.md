@@ -13,16 +13,16 @@ C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP C10
   * Print 10 Misclassified image.
 
 **********************************************************************
-Model Trained with C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP c10 Network with below Hyperparameters
-* Batch Size: 128
-* lr : 0.01
-* Momentum :0.9
-* Total Parameters: 37,098
-* Transformations applied
-    * ColorJitter
-    * RandomHorizontalFlip(p=0.3)
-    * RandomRotation((-10., 10.))
-* Dropout = 0.01
+* Model Trained with C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP c10 Network with below Hyperparameters
+	* Batch Size: 128
+	* lr : 0.01
+	* Momentum :0.9
+	* Total Parameters: 37,098
+	* Transformations applied
+    		* ColorJitter
+    		* RandomHorizontalFlip(p=0.3)
+    		* RandomRotation((-10., 10.))
+	* Dropout = 0.01
 
 
 * Network with Batch Normalization
@@ -38,9 +38,9 @@ Model Trained with C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP c10 Network with belo
    	- Test Accuracy :  77.06%
    	  
  * Network with Group Normalization
-   	* [S8_GroupNormalization.ipynb](S8_GroupNormalization.ipynb)
-    	* Train Accuracy : 75.48%
-    	* Test Accuracy : 77.53%
+   	- [S8_GroupNormalization.ipynb](S8_GroupNormalization.ipynb)
+    	- Train Accuracy : 75.48%
+    	- Test Accuracy : 77.53%
     
 	
 * Weights folder consists saved model objects/weights for reuse purpose.
@@ -109,9 +109,11 @@ Estimated Total Size (MB): 1.72
 ## Graph - Group Normalization 
 ![image](images/GN_Graph.png)
 
-##Graph - Layer Normalization 
+## Graph - Layer Normalization 
 
 ![image](images/LN_Graph.png)
+
+## Misclassified Images:
 
 ### Misclassified Image - Batch Normalization 
 ![image](images/BN_Missclassification.png)
