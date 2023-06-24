@@ -12,36 +12,44 @@ C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP C10
   * Network with Batch Normalization
   * Print 10 Misclassified image.
 
-**Network Summary**
+**********************************************************************
+Model Trained with C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP c10 Network with below Hyperparameters
 * Batch Size: 128
+* lr : 0.01
+* Momentum :0.9
 * Total Parameters: 37,098
 * Transformations applied
     * ColorJitter
     * RandomHorizontalFlip(p=0.3)
     * RandomRotation((-10., 10.))
-
 * Dropout = 0.01
 
 
 * Network with Batch Normalization
+  
+	- [S8_BatchNormalization.ipynb](S8_BatchNormalization.ipynb)
+	- Train Accuracy : 76.07%
+	- Test Accuracy : 77.79%
 
-	* S8_BatchNormalization.ipynb
-	* Train Accuracy : 76.07%
-	* Test Accuracy : 77.79%
-* Network with Group Normalization
 
-    	* S8_GroupNormalization.ipynb
+* Network with Layer Normalization
+   	- [S8_LayerNormalization.ipynb](S8_LayerNormalization.ipynb)
+   	- Train Accuracy : 75 %
+   	- Test Accuracy :  77.06%
+   	  
+ * Network with Group Normalization
+   	* [S8_GroupNormalization.ipynb](S8_GroupNormalization.ipynb)
     	* Train Accuracy : 75.48%
     	* Test Accuracy : 77.53%
     
-* Network with Layer Normalization
-
-   	* S8_LayerNormalization.ipynb
-   	* Train Accuracy : 75 %
-   	* Test Accuracy :  77.06%
 	
-	
+* Weights folder consists saved model objects/weights for reuse purpose.
+* Model.py - Consists Network class
+* Utils.py - Consists helper classes related to Train, test etc
+* visualize.py - Consists helper classes used for visualization.
 
+   
+**Network Summary**
 
 ```
 ---------------------------------------------------------------
