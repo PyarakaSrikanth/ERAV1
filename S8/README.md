@@ -43,10 +43,10 @@ C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP C10
     	- Test Accuracy : 77.53%
     
 	
-* Weights folder consists saved model objects/weights for reuse purpose.
-* Model.py - Consists Network class
-* Utils.py - Consists helper classes related to Train, test etc
-* visualize.py - Consists helper classes used for visualization.
+* [Weights](Weights) folder consists saved model objects/weights for reuse purpose.
+* [Model.py](model.py) - Consists Network class
+* [Utils.py](utils.py) - Consists helper classes related to Train, test etc
+* [visualize.py](visualize.py) - Consists helper classes used for visualization.
 
    
 **Network Summary**
