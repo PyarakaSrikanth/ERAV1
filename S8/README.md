@@ -30,15 +30,15 @@ C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP C10
 	* Test Accuracy : 77.79%
 * Network with Group Normalization
 
-    * S8_GroupNormalization.ipynb
-    * Train Accuracy : 75.48%
-    * Test Accuracy : 77.53%
+    	* S8_GroupNormalization.ipynb
+    	* Train Accuracy : 75.48%
+    	* Test Accuracy : 77.53%
     
 * Network with Layer Normalization
 
-   * S8_LayerNormalization.ipynb
-   * Train Accuracy : 75 %
-   * Test Accuracy :  77.06%
+   	* S8_LayerNormalization.ipynb
+   	* Train Accuracy : 75 %
+   	* Test Accuracy :  77.06%
 	
 	
 
@@ -108,18 +108,18 @@ Estimated Total Size (MB): 1.72
 ### Misclassified Image - Batch Normalization 
 ![image](images/BN_Missclassification.png)
 ### Misclassified Image - Group Normalization 
-![image](images/GN_Missclassification.png)
+![image](images/GN_Misclassification.png)
 ### Mispredicted Image - Layer Normalization 
-![image](images/LN_Missclassificatiol_
+![image](images/LN_Missclassification.png)
 
 
 ## Confusion Matrices :
 
-### Confusion Matrices bwennnn Image - Batch Normalization 
-![image](images/BN_Cm.png)
-### Misclassified Image - Group Normalization 
-![image](images/GN_Cm.png)
-### Mispredicted Image - Layer Normalization 
-![image](images/LN_Cm.png)
+### Confusion Matrix Model - Batch Normalization 
+![image](images/BN_CM.png)
+### Confusion Matrix Model - Group Normalization 
+![image](images/GN_CM.png)
+### Confusion Matrix Model - Layer Normalization 
+![image](images/LN_CM.png)
 
 
