@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
-#C1 C2 c3 P1 C3 C4 C5 c6 P2 C7 C8 C9 GAP C10
+
 class Net(nn.Module):
     #This defines the structure of the NN.
     def __init__(self,norm='BN',drop=0.01):
